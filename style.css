@@ -1,0 +1,155 @@
+/* menu */
+
+
+.header{
+    background-color: #3498db;
+}
+
+.logo img{
+    width: 150px;
+}
+.header-menu ul{
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-right: -4px;
+}
+.header-menu ul li:last-child a{
+    border-right: 1px solid #ddd;
+}
+.header-menu ul li a{
+    display: block;
+    color: #ddd;
+    padding: 0 30px;
+    font-size: 18px;
+    border-left: 1px solid #ddd;
+    line-height: 37px;
+    text-decoration: none;
+
+    transition: .4s;
+
+}
+.header-menu ul li a:hover{
+    background-color: #2980b9;
+}
+
+
+/* banner */
+
+
+.banner{
+    background-image: url(./img/Slider\ bussiness.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 130px;
+}
+
+
+.banner h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.banner p{
+    color: #ddd;
+    max-width: 734px;
+    margin: auto;
+}
+
+
+/* about */
+
+
+.about{
+    background-color: #bdc3c7;
+    padding: 40px 0;
+}
+.about h2{
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+.about p{
+    max-width: 786px;
+    margin: auto;
+}
+
+
+/* Servise */
+
+
+.servise{
+    
+}
+.servise span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    font-size: 35px;
+    background: #34495e;
+    color: #fff;
+    line-height: 60px;
+    border-radius: 15px 0 15px 0;
+}
+.servise h2{
+    margin: 20px 0;
+}
+
+
+
+
+
+/* Blog */
+
+
+
+
+.blog{}
+.blog img{
+    width: 100%;
+}
+
+.blog-right h2{
+    font-size: 33px;
+    color: rgb(53,97,126);
+    margin-bottom: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px;}
+.blog-right ul{}
+.blog-right ul li{
+    border: 1px solid #fafafa;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+
+/* footer */
+.footer p{
+    
+}
+
+.footer{
+    background-color: #34495e;
+    color: #fff;
+}
+.footer-menu ul{
+    text-align: right;
+    
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin-bottom: 0;
+}
+.footer-menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+}
+
+
+
